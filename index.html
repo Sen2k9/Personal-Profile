@@ -1,0 +1,1024 @@
+<!--
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+-->
+<!doctype html>
+<html>
+<head>
+<meta name="viewport"  content=" width=device-width, initial-scale=1" >
+<title>Profile of Dipankar Dasgupta</title>
+<!-- links -->
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"/>
+
+<style>
+/*a{text-decoration:none}
+/*h4{text-align:center;margin:30px 0;color:#444}*/
+
+
+/******************* Timeline Demo - 7 *****************/
+
+.main-timeline7{overflow:hidden;position:relative}
+.main-timeline7 .timeline{width:50%;float:left;z-index:1;position:relative}
+.main-timeline7 .timeline:after,.main-timeline7 .timeline:before{content:"";display:block;clear:both}
+.main-timeline7 .timeline:before{content:"";width:40px;height:90%;background:#727cb6;position:absolute;top:10%;right:-20px}
+.main-timeline7 .timeline:last-child:before{height:0}
+.main-timeline7 .timeline-icon{width:80px;height:80px;border-radius:50%;background:#727cb6;overflow:hidden;text-align:center;position:absolute;top:0;right:-40px;z-index:3}
+.main-timeline7 .timeline-icon:before{content:"";width:60px;height:60px;border-radius:50%;background:#fff;border:2px solid #727cb6;box-shadow:0 0 0 4px #a5afe4;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0}
+.main-timeline7 .timeline-icon i{font-size:35px;color:#303a3b;line-height:80px;z-index:1;position:relative}
+.main-timeline7 .year{display:block;padding:0 60px 0 30px;font-size:30px;color:#303a3b;text-align:right;border-bottom:2px solid #303a3b;z-index:2;position:relative}
+.main-timeline7 .year:before{content:"";display:block;width:30px;height:30px;border-radius:50%;background:#727cb6;border:5px solid #fff;box-shadow:0 0 0 4px #727cb6;margin:auto;position:absolute;bottom:-15px;left:4px}
+.main-timeline7 .year:after{content:"";border-left:10px solid #303a3b;border-top:10px solid transparent;border-bottom:10px solid transparent;position:absolute;bottom:-11px;left:50px}
+.main-timeline7 .timeline-content{padding:18px 60px 18px 40px;text-align:right;position:relative;z-index:1}
+.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{content:"";width:80px;height:150px;border-radius:50%;background:#fff;position:absolute;top:-7%;right:15px;z-index:-1}
+.main-timeline7 .timeline-content:after{left:auto;right:-95px}
+.main-timeline7 .timeline:last-child .timeline-content:after,.main-timeline7 .timeline:last-child .timeline-content:before{width:0;height:0}
+.main-timeline7 .title{font-size:22px;font-weight:700;color:#727cb6;margin-top:0}
+.main-timeline7 .description{font-size:15px;color:#7f8386;line-height:25px}
+.main-timeline7 .timeline:nth-child(2){margin-top:140px}
+.main-timeline7 .timeline:nth-child(even){margin-bottom:80px}
+.main-timeline7 .timeline:nth-child(odd){margin:-140px 0 0}
+.main-timeline7 .timeline:first-child,.main-timeline7 .timeline:last-child:nth-child(even){margin:0!important}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon,.main-timeline7 .timeline:nth-child(2n):before{right:auto;left:-20px;background:#e77e21}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon{left:-40px}
+.main-timeline7 .timeline:nth-child(2n) .year{padding:0 30px 0 60px;text-align:left}
+.main-timeline7 .timeline:nth-child(2n) .year:before{left:auto;right:3px}
+.main-timeline7 .timeline:nth-child(2n) .year:after{border-left:none;border-right:10px solid #303a3b;right:50px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content{padding:18px 40px 18px 60px;text-align:left}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content:before{left:-95px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content:after{left:15px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon:before{border-color:#e77e21;box-shadow:0 0 0 4px #f1a563}
+.main-timeline7 .timeline:nth-child(2n) .year:before{background:#e77e21;box-shadow:0 0 0 4px #e77e21}
+.main-timeline7 .timeline:nth-child(2n) .title{color:#e77e21}
+.main-timeline7 .timeline:nth-child(3n) .timeline-icon,.main-timeline7 .timeline:nth-child(3n):before{background:#008b8b}
+.main-timeline7 .timeline:nth-child(3n) .timeline-icon:before{border-color:#008b8b;box-shadow:0 0 0 4px #50b5b4}
+.main-timeline7 .timeline:nth-child(3n) .year:before{background:#008b8b;box-shadow:0 0 0 4px #008b8b}
+.main-timeline7 .timeline:nth-child(3n) .title{color:#008b8b}
+.main-timeline7 .timeline:nth-child(4n) .timeline-icon,.main-timeline7 .timeline:nth-child(4n):before{background:#ed687c}
+.main-timeline7 .timeline:nth-child(4n) .timeline-icon:before{border-color:#ed687c;box-shadow:0 0 0 4px #f798a8}
+.main-timeline7 .timeline:nth-child(4n) .year:before{background:#ed687c;box-shadow:0 0 0 4px #ed687c}
+.main-timeline7 .timeline:nth-child(4n) .title{color:#ed687c}
+@media only screen and (max-width:990px){.main-timeline7 .timeline{width:100%}
+.main-timeline7 .timeline:nth-child(even),.main-timeline7 .timeline:nth-child(odd){margin:0}
+.main-timeline7 .timeline:before,.main-timeline7 .timeline:nth-child(2n):before{width:30px;height:100%;left:25px}
+.main-timeline7 .timeline-icon,.main-timeline7 .timeline:nth-child(2n) .timeline-icon{left:0}
+.main-timeline7 .timeline:nth-child(2n) .year,.main-timeline7 .year{text-align:left;padding:0 30px 0 100px}
+.main-timeline7 .timeline:nth-child(2n) .year:before,.main-timeline7 .year:before{left:auto;right:4px}
+.main-timeline7 .year:after{left:auto;right:50px;border-right:10px solid #303a3b;border-left:none}
+.main-timeline7 .timeline-content .description{color:#666}
+.main-timeline7 .timeline-content,.main-timeline7 .timeline:nth-child(2n) .timeline-content{text-align:left;padding:18px 40px 18px 100px}
+.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{width:0;height:0}
+}
+
+
+
+
+
+</style>
+<!-- links -->
+</head>
+
+<body >
+  <!-- script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src ="jquery-nav-bar.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <!-- script -->
+
+  <!-- header -->
+<div class="jumbotron text-left mg0" >
+    <!-- header without nav bar -->
+
+  <div class="container"  >
+
+  <!-- social-icon+research site -->
+  <div class="navbar-right" style="margin: 0px 0px -10px auto;height: 5%;width: 15%;font-size: 10px; postion:relative;">
+    <div class="social_icon" style="padding:0;margin"0;>
+
+
+      <a style="color:#0D3182;" href="https://scholar.google.com/citations?user=tMAWoyoAAAAJ&hl=en" title="Google Scholar Profile" class="Google Scholar" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+
+      <a style="color:#0D3182;" href="https://dblp.uni-trier.de/pers/hd/d/Dasgupta:Dipankar" title="List of Publications on DBLP" class="DBLP" target="_blank"><i class="ai ai-dblp-square ai-3x"></i></a>
+      <a style="color:#0D3182;" href="https://www.researchgate.net/profile/Dipankar_Dasgupta3" title="Research Gate Profile" class="researchgate" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a>
+      <a style="color:#0D3182;" href="https://dl.acm.org/author_page.cfm?id=81100358804" title="ACM Digital Library Profile" class="acmdl" target="_blank"><i class="ai ai-acmdl-square ai-3x"></i></a>
+
+      <h4 class="text-uppercase" >Research Sites</h4>
+      <ul style="padding:0;margin"0;>
+      <li><span class="site-description1" style="float:none !important;margin-left: 0; color:#0D3182; "><a  href="http://www.cs.memphis.edu/~dasgupta/index.php?page=ais">Artificial Immune Systems (AIS)</a></li></span>
+      <li><span class="site-description1" style="float:none !important;margin-left: 0; color:#0D3182;"><a  href="http://cfia.memphis.edu/">Center for Information Assurance (CfIA)</a></li></span>
+      <li><span class="site-description1" style="float:none !important;margin-left: 0; color:#0D3182;"><a  href="files/Research-Statement-Dasgupta_2019.pdf">Research Statement (2019)</a></li></span>
+      <li><span class="site-description1" style="float:none !important;margin-left: 0; color:#0D3182;"><a  href="files/Dasgupta Sabbatical Year Report.pdf">Dasgupta Sabbatical Year Report</a></li></span>
+      </ul>
+
+</div>
+
+  </div>
+  <!-- social-icon+research site -->
+  <!-- affiliation -->
+  <!--changes made -->
+  <div style="display:inline-block;vertical-align:top;">
+      <a class="site-description2"  class="hidden-xs" style="float:none !important;margin-left: 0;" href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php"><img src="images/dasgupta-big.png"  height="120" width="100" alt="Dr. Dipankar Dasgupta"/></a>
+
+  </div>
+
+  <div style="display:inline-block;">
+      <div>
+        <a class="navbar-brand" style="float:none !important;margin-left: 0; padding-left:0; color:#0D3182;" href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php" title="Dr. Dipankar Dasgupta" rel="home">Dr. Dipankar Dasgupta</a>
+
+      </div>
+      <div>
+        <span class="site-description2" style="float:none !important;margin-left: 0; color:#0D3182;"><a style="color:#0D3182;" href= "https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php">William Hill </a> Professor in Cyber Security</span>
+        </div>
+      <div>
+        <span class="site-description2" style="float:none !important;margin-left: 0; color:#0D3182;">Director, <a style="color:#0D3182;" href="http://cfia.memphis.edu/">Center for Information Assurance</a></span>
+      </div>
+      <div>
+        <span class="site-description2" style="float:none !important;margin-left: 0; color:#0D3182;">Director, <a style="color:#0D3182;" href="http://issrl.cs.memphis.edu/">Intelligent Security Systems Research Laboratory</a></span>
+      </div>
+  </div>
+
+  <!--changes made -->
+
+<!-- affiliation -->
+
+</div>
+
+  <!-- header without nav bar -->
+<!-- navigation bar -->
+<div class="navbar-inner">
+    <div class="nav1">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav m-auto">
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="news.html">News</a>
+          <a class="dropdown-item" href="activities.html">Professional Activities</a>
+
+          <a class="dropdown-item" href="talks.html">Invited Talks</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research
+        </a>
+        <div class="dropdown-menu multi-level" aria-labelledby="navbarDropdown">
+
+          <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Interest
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a  class="dropdown-item" href="ais.html">Artificial Immune Systems</a></li>
+                <li><a  class="dropdown-item" href="ec.html">Evolutionary Computation</a></li>
+                <li><a   class="dropdown-item" href="ic.html">Immunological Computation</a></li>
+
+                <li><a  class="dropdown-item" href="ids.html">Intrusion Detection</a></li>
+
+                <li><a class="dropdown-item" href="fd.html">Fault Detection</a></li>
+            </ul>
+
+          </div>
+
+          <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a  class="dropdown-item" href="current.html">Current projects</a></li>
+                <li><a  class="dropdown-item" href="prevproj.html">Previous projects</a></li>
+
+            </ul>
+
+          </div>
+
+
+          <a class="dropdown-item" href="grants.html">Grants</a>
+
+          <a class="dropdown-item" href="https://scholar.google.com/citations?user=tMAWoyoAAAAJ&hl=en">Publications</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Teaching
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="courses.html">Courses</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="students.html">Staff/Students</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Books
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="uabook.html">AUA Book</a>
+
+          <a class="dropdown-item" href="icbook.html">IC Book</a>
+          <a class="dropdown-item" href="aisbook.html">AIS Book</a>
+          <a class="dropdown-item" href="ecbook.html">EC Book</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Recognitions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="awards.html">Awards</a>
+
+          <a class="dropdown-item" href="videos.html">Videos</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+    </ul>
+
+
+  </div>
+</nav>
+</div>
+</div>
+<!-- navigation bar -->
+</div>
+
+<!-- header -->
+
+<!--THIS IS THE BEGINNING OF IMAGES-->
+<div class="container">
+  <div class="about">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner " >
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/9.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img  class="d-block w-100" src="images/cyberseed_workplace_ps.jpg" alt="First slide">
+    </div>
+    </div>
+
+    <div class="carousel-item active">
+      <div class="container">
+      <img class="d-block w-100" src="images/graduation.png"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/Poland-1.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/AMFA-Norway.png"alt="Third slide">
+    </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/Poland-2.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/1.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/2.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/3.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/4.jpg"alt="Third slide">
+    </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/6.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/7.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/8.jpg"alt="Third slide">
+    </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/10.jpg"alt="Third slide">
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+      <img class="d-block w-100" src="images/delhi.jpg"alt="Third slide">
+    </div>
+    </div>
+
+
+  </div>
+</div>
+</div>
+</div>
+<!--THIS IS THE END OF IMAGES-->
+
+
+
+
+<!--THIS IS THE BEGINNING OF TICKER-->
+<div id="ticker">
+    <marquee scrolldelay="50" onMouseOver="this.stop()" onMouseOut="this.start()">
+      Dr. Dasgupta will organize symposium on Computational Intelligence in Cyber Security (CICS) at the IEEE Symposium Series on Computational Intelligence (SSCI) in Xiamen, China from Dec 6 - 9, 2019.<a href="http://ssci2019.org/cics.html">Click here for more details</a>&nbsp;&nbsp;&nbsp;
+Dr. Dasgupta has organized symposium on Computational Intelligence in Cyber Security (CICS) at the IEEE Symposium Series on Computational Intelligence (SSCI) in Bengaluru, India from November 18-21, 2018.<a href="http://ieee-ssci2018.org/cics.html">Click here for more details</a>&nbsp;&nbsp;&nbsp;
+Dr. Dasgupta has organized IEEE Symposium on <a href="http://www.ele.uri.edu/ieee-ssci2017/CICS.htm">Computational Intelligence in Cyber Security (CICS 2017)</a> at Hawaii, USA from November 27-December 1, 2017.
+&nbsp;&nbsp;&nbsp;
+Program Committee Member of the 1st IEEE International Workshop on <a href="http://paris.utdallas.edu/cre16/">Cyber Resiliency Economics (CRE 2016) </a>, Vienna, Austria, August 1-3, 2016.&nbsp;&nbsp;&nbsp;
+
+  </marquee>
+</div>
+<!--THIS IS THE END OF TICKER-->
+<!-- same code for all html pages untill then -->
+
+
+<!-- Home page -->
+<!--body text -->
+<!-- Modal -->
+<div class="modal fade" id="cs" tabindex="-1" role="dialog" aria-labelledby="csLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="csLabel">Cyber Security</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/dipankar-dasgupta.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ais" tabindex="-1" role="dialog" aria-labelledby="aisLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="aisLabel">Artificial Immune System</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <p class="indent">The Biological immune system is a highly parallel, distributed, and adaptive system. It uses learning, memory, and associative retrieval to solve recognition and classification tasks. In particular, it learns to recognize relevant patterns, remember patterns that have been seen previously, and use combinatorics to construct pattern detectors efficiently. These remarkable information processing abilities of the immune system provide important aspects in the field of computation. This emerging field is sometimes referred to as Immunological Computation, Immunocomputing, or Artificial Immune Systems (AIS). Although it is still relatively new, AIS, having a strong relationship with other biology-inspired computing models, and computational biology, is establishing its uniqueness and effectiveness through the zealous efforts of researchers around the world.</p>
+
+        <h4>Books on Artificial Immune Systems:</h4>
+
+        <ul>
+
+        <li><a href="http://www.cs.memphis.edu/~dasgupta/index.php?page=icbook">"Immunological Computation: Theory and Applications" (Cover Page).</a><br> <a href="http://ais.cs.memphis.edu/files/Newbook_ais.pdf">Click here</a> to see flyer of this book.<br></li>
+
+        <li><a href="http://www.cs.memphis.edu/~dasgupta/index.php?page=aisbook">"Artificial Immune Systems and Their Applications"</a><br></li>
+
+        <li>Dr. Dipankar Dasgupta's talk on <a href="https://vimeo.com/4592273">Artificial Immune Systems</a> at the University of Illinois at Urbana Champaign (NIGEL 2006 workshop).</li>
+
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ec" tabindex="-1" role="dialog" aria-labelledby="ecLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ecLabel">Evolutionary Computation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Evolutionary Computation</h4>
+<!-- Modal -->
+Book: <a href="http://seclab1.cs.memphis.edu/index.php?page=ecbook">Evolutionary Algorithms in Engineering Applications</a>
+
+<h4>Structured Genetic Algorithms (st. GA)</h4>
+
+<p class="indent">The field of biological evolution brought a new age in adaptive computation (AC). Among different evolutionary computation approaches, Genetic Algorithms (GA) are receiving much attention both in academic and industries. Genetic algorithms are general-purpose search procedures based on the mechanisms of natural selection and population genetics. Genetic algorithm-based tools have started growing impact in companies - predicting financial market, in factories - job scheduling etc. with their power of search, optimization, adaptation and learning. For the users of diversified fields, genetic algorithms are appealing because of their simplicity, easy to interface and ease to extensibility.</p>
+
+<p class="indent">Despite their generally robust character, as the application increases, there found many domains where formal GAs perform poorly. Several modifications have been suggested to alleviate the difficulties both in the manipulation of encoded information and the ways of representing problem spaces. A number of different models, namely, Messy GAs and Genetic Programmings developed recently which addressed the representation issue of GAs.</p>
+
+<p class="indent">Dipankar Dasgupta has been involved in the investigation of a more biologically motivated genetic search model - called the <i>Structured Genetic Algorithm</i> (sGA). The model uses some complex mechanisms of biological systems for developing a more efficient genetic search technique. Specifically, this model incorporates redundant genetic material and a gene activation mechanism which utilizes multi-layered genomic structures for the chromosome. The additional genetic material has many advantages in search and optimization. It mainly serves two purposes: primarily, it can maintain genetic diversity at all time during the search process, where the expected variability largely depends on the amount of redundancy incorporated in the encoding.</p>
+
+<p>The following paragraphs summarize some aspects and advantages of Structured Genetic Algorithms:</p>
+
+<ul><p class = "indent">
+
+<li>A chromosome is represented by a set of substrings which act as different levels to establish a kind of switch, controlling the expression of down stream genes. These during reproduction are modified by the genetic operators - crossover and mutation etc. - exactly as in simple GAs.</p></li>
+
+<li>In decoding to the phenotype, a chromosome is interpreted as a hierarchical genomic structure of the genetic material. Only those genes currently {\em active} in the chromosome contribute to the fitness of the phenotype. The {\em passive} genes are apparently neutral and carried along as redundant genetic material during the evolutionary process.</li>
+
+<li>Genetic operations altering high-level genes result in changes to the active elements of the genomic structures. Particularly, the role of mutation is twofold: it changes the allele value of any gene, but when it occurs at a higher level it acts as a dominance operator and changes the expression of a set of gene values at the lower level.</li>
+
+<li>Even when a population converges to its phenotypic space, genotypic diversity still exists which is a unique characteristic of the model. In most other formal genetic models, phenotypic convergence implies genotypic convergence with consequent impoverishment of diversity within the population.</li>
+
+<li>It can maintain a balance between exploration and exploitation resulting in efficient searching of potential areas of the phenotypic space. Being trapped at a local optimum which causes premature convergence can be avoided.</li>
+
+<li>The sGA provides a long-term mechanism for preserving and retrieving alternative solutions or previously-expressed building blocks within the chromosomal structures. In non-stationary optimizations, a sGA provides a means of rapid long jump adaptation; whereas a simple GA with the dominance and diploidy used so far can store or retrieve one allele independently, and thus may provide only a short-term preservation.</li>
+
+<li>Co-evolution can also occur easily among species by simultaneously sampling and preserving different areas of search space in a multi-global fitness landscape. In effect, it can retain multiple optional solutions (or parameter spaces) in function optimization.</li>
+
+<li>It can achieve optimization of multi-stage problems by defining search spaces in its different layers and can explore and exploit them in a single evolutionary process.</li>
+
+</ul>
+
+<p class="indent">One school of thought (Darwinian) believes that evolutionary changes are gradual; another (Punctuated Equilibria) postulates that evolutionary changes go in sudden bursts, punctuating long periods of stasis when very small evolutionary changes take place in a given lineage. The new model provides a good framework for carrying out studies that could bridge these two theories.</p>
+
+<p class="indent">Structured GA's results to date are very encouraging, though there remain many issues for further investigation. It appears to an enhancement of the formal genetic model with a number of practical advantages. This approach has also received favorable attention in the field of evolutionary computation. However, the studies on structured GAs done so far are only the first step toward the broader goal of developing a more efficient genetic search. Further research to understand the behavior of the model and to determine its search properties is in progress.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+
+<div class="container">
+  <div class="about">
+<!-- changes (remove content)
+    <p style="margin-top: 25px;">Dr. Dipankar Dasgupta's research interests are mainly in the area of scientific computing and tracking real-world problems through interdisciplinary cooperation. His areas of special interests include:
+     </p>
+changes (remove content)   -->
+     <!-- Research interest -->
+    <div class="row">
+      <div class="col-md-4 crl1 about_grid">
+        <i class="fas fa-key"></i>
+        <h4> Cyber Security</h4>
+        <p>Among different research areas Negative Authentication, Adaption Multi-Factor Authentication, Smart-Grid Security are the current focus. Also Game Theory and Cyber Security (GTCS) group conducts cutting-edge research to explore how they can apply game theoretic approaches to address network security issues. Current projects that students are working on include Game Theory Inspired Defense Architecture (GIDA), and AVOIDIT: A Cyber Attack Taxonomy.</p>
+        <a href="https://www.memphis.edu/cfia/index.php" ><button type="button" class="more-bttn" data-toggle="modal"  >
+          read more
+        </button></a>
+
+  </div>
+  <div class="col-md-4 crl2 about_grid">
+    <i class="fa fa-robot"></i>
+    <h4> Artificial Immune Systems</h4>
+    <p>This emerging field is sometimes referred to as Immunological Computation, Immunocomputing, or Artificial Immune Systems (AIS). Although it is still relatively new, AIS, having a strong relationship with other biology-inspired computing models, and computational biology, is establishing its uniqueness and effectiveness through the zealous efforts of researchers around the world.
+    </p>
+    <button type="button" class="more-bttn" data-toggle="modal" data-target="#ais">
+      read more
+    </button>
+
+</div>
+<div class="col-md-4 crl3 about_grid">
+  <i class="fa fa-calculator"></i>
+  <h4> Evolutionary Computation</h4>
+  <p>Dipankar Dasgupta has been involved in the investigation of a more biologically motivated genetic search model - called the Structured Genetic Algorithm (sGA). The model uses some complex mechanisms of biological systems for developing a more efficient genetic search technique. Specifically, this model incorporates redundant genetic material and a gene activation mechanism which utilizes multi-layered genomic structures for the chromosome. The additional genetic material has many advantages in search and optimization. It mainly serves two purposes: primarily, it can maintain genetic diversity at all time during the search process, where the expected variability largely depends on the amount of redundancy incorporated in the encoding.
+  </p>
+  <button type="button" class="more-bttn" data-toggle="modal" data-target="#ec">
+    read more
+  </button>
+
+</div>
+  </div>
+  <!-- Research interest -->
+
+
+   <p style="margin-top: 25px;">Dr. Dipankar Dasgupta published more than 260 research papers in book chapters, journals, and international conferences.
+     He authored a book, published two edited volumes and co-edited several conference proceedings over the last 20 years.
+     A search for "Dipankar Dasgupta" on Google Scholar shows a total count: 15,000+ citations.
+     To get the current list of his publications from Google Scholar <a href = "https://scholar.google.com/citations?user=tMAWoyoAAAAJ&hl=en&oi=ao"><U>click here</U></a>.
+   </p>
+
+</div>
+</div>
+
+<!--modal -->
+<div class="modal fade" id="world_ranking" tabindex="-1" role="dialog" aria-labelledby="world_rankingLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="world_rankingLabel">Word Scientists Ranking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="http://www.guide2research.com/u/dipankar-dasgupta"></a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal -->
+
+<!-- ranking -->
+<div class="services">
+  <div class="container">
+
+<!-- changes -->
+<div class="row">
+  <div class="col-md-4 crl1 about_grid">
+    <div >
+      <i class="fas fa-university"></i>
+      <table>
+        <tbody style="text-align:center;">
+          <tr> <td><h4>World Scientist Ranking:  </h4></td>
+            <td><h4> &nbsp; &nbsp; &nbsp; </h4></td>
+          <td><h4>1060</h4></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <a href="http://www.guide2research.com/u/dipankar-dasgupta">
+      <button type="button"  class="more-bttn" class="btn" data-toggle="modal">
+      Click for details
+    </button></a>
+
+</div>
+<div class="col-md-4 crl1 about_grid">
+  <div >
+    <i class="ai ai-google-scholar ai-3x"></i>
+    <table>
+      <tbody style="text-align:center;">
+        <tr> <td><h4>Google Scholar Entry:  </h4></td>
+          <td><h4> &nbsp; &nbsp; </h4></td>
+        <td><h4>(h-index: 57)</h4></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <a href="https://scholar.google.com/citations?user=tMAWoyoAAAAJ&hl=en">
+    <button type="button"  class="more-bttn" class="btn" data-toggle="modal">
+    Click for details
+  </button></a>
+
+</div>
+<div class="col-md-4 crl1 about_grid">
+  <div >
+    <i class="fas fa-university"></i>
+    <table >
+      <tbody style="text-align:center;">
+        <tr> <td><h4>Scopus Entry:  </h4></td>
+          <td><h4> &nbsp; &nbsp; &nbsp;</h4></td>
+        <td><h4>133 co-authors</h4></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=7103226630">
+    <button type="button"  class="more-bttn" class="btn" data-toggle="modal">
+    Click for details
+  </button></a>
+
+</div>
+</div>
+<!--changes -->
+
+
+
+
+
+  </div>
+</div>
+<!-- ranking -->
+
+<!-- body text -->
+<div class="container">
+  <div class="about">
+
+    <div class="container">
+        <h2 align="center">Academic Positions</h2>
+        <br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline7">
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                        <span class="year">2018-Present</span>
+                        <div class="timeline-content">
+                            <h5 class="title">William Hill Professor in Cybersecurity</h5>
+                            <p class="description">
+                                The University of Memphis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                        <span class="year">2014-2018</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Dr. Pat E. Burlison professorship (honorary Position)</h5>
+                            <p class="description">
+                                The University of Memphis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                        <span class="year">2004-Present</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Full Professor</h5>
+                            <p class="description">
+                              Computer Science, The University of Memphis
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-eye"></i></div>
+                        <span class="year">2003-2004</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Visiting Scientist (Sabbatical Position)</h5>
+                            <p class="description">
+                              NSA Ames Research Lab, California
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                        <span class="year">2001- 2004</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Associate Professor</h5>
+                            <p class="description">
+                                Computer Science, The University of Memphis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                        <span class="year">1997- 2001</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Assistant Professor</h5>
+                            <p class="description">
+                                Computer Science, The University of Memphis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-eye"></i></div>
+                        <span class="year">1995-1996</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Visiting Assistant Professor</h5>
+                            <p class="description">
+                                Computer Science, University of Missouri, St. Louis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-flask"></i></div>
+                        <span class="year">1994-1995</span>
+                        <div class="timeline-content">
+                            <h5 class="title">Post Doctoral Research Associate</h5>
+                            <p class="description">
+                                Computer Science, University of New Mexico, Albuquerque
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <hr>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+  <p>  His name is listed among the top computer scientists whose h-index is above 50 (available at <a href ="http://www.cs.ucla.edu/~palsberg/h-number.html"> UCLA site </a>), thus, influencing the research community. One of his current researches is applying Computational Intelligence techniques in Network and Internet Security. For more information, please <a href = "http://issrl.cs.memphis.edu/"> <U> click here </U>
+    </a>.
+  </p>
+
+<ul>
+
+<li>Dr. Dasgupta has been awarded as <a href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php"><b>William Hill Professor in Cyber Security</b></a> at The University of Memphis on Aug 22, 2018.</li>
+
+<li>Dr. Dasgupta is the recipient of 2014 <a href="http://sigevo.hosting.acm.org/wiki/tiki-index.php?page=SIGEVO+Impact+Award"><b>ACM SIGEVO</b></a> Impact Award.</li>
+<li>Dr. Dasgupta Elevated to <a href= "http://umwebdev.memphis.edu/mediaroom/releases/dec14/dasgupta.php"><b>IEEE Fellow(Batch of 2015).</b></a></li>
+<li>Dr. Dasgupta is a<a href = "http://dsp.acm.org/view_lecturer.cfm?lecturer_id=5443#lecturer_id#.  "> <b>Distinguished ACM Speaker</b>.</a></li>
+<li> Dr. Dasgupta is the recipient of 2012<a href="http://www.memphis.edu/aa/provost/facawards/"> <b>Willard R. Sparks Eminent Faculty Award</b>.</a></li>
+<li>Dr. Dasgupta is an Advisory Board Member of <a href="http://geospatial.mit.edu/advisory_board_geocentric.html"><b>MIT in Cyber Security</b>. </a></li>
+
+</ul>
+
+<hr/>
+
+
+
+<p> Editorial Board of journals </p>
+
+
+<ul>
+
+<li>Evolutionary Intelligence, Springer-Verlag</li>
+
+<li>Evolutionary Optimization, Polish Academy of Science. </li>
+
+<li>Recent Patents on Computer Science, online journal Bentham Science Publishers Ltd. </li>
+
+<li>Swarm and Evolutionary Computing - Elsevier Press</li>
+</ul>
+<hr/>
+<p>His work on "Password Immunizer" (based on <a href ="index.php?page=negative">Negative Authentication System</a>) was submitted for patent. A demo illustrating the concept is available <a href = "files/nas_results.pdf"><U>here</U></a>.</p>
+
+</div>
+</div>
+
+<!-- body text -->
+
+
+
+    <div class="container">
+      <div class="about">
+      <p>His published books include:</p>
+
+
+    </div>
+    </div>
+<!--modal -->
+    <div class="modal fade" id="world_ranking" tabindex="-1" role="dialog" aria-labelledby="world_rankingLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="world_rankingLabel">Word Scientists Ranking</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="http://www.guide2research.com/u/dipankar-dasgupta"></a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!--modal -->
+    <!-- books published -->
+<div class="services">
+  <div class="container">
+
+
+    <div class="row">
+        <div class="col-md-4">
+          <div class="services_grid">
+            <div class="row">
+              <div class="services_grid1">
+                <div >
+              <a title="Advances in User Authentication" href="uabook.html"><img src="images/advances_in_user_authen.jpg" width="120px" height="160px" data-toggle="modal">
+              </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="col-md-4">
+  <div class="services_grid">
+    <div class="row">
+      <div class="services_grid1">
+        <div >
+
+          <a title="Immunological Computation" href="icbook.html"><img src="images/immunogical_computation.png" width="120px" height="160px" data-toggle="modal">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="services_grid">
+    <div class="row">
+      <div class="services_grid1">
+        <div >
+
+
+        <a title="Artificial Immune System" href="aisbook.html"><img src="images/ais.png" width="120px" height="160px" data-toggle="modal"></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="services_grid">
+    <div class="row">
+      <div class="services_grid1">
+        <div >
+
+
+            <a title="Artificial Immune System In Russian Language" href="aisbook.html"><img src="images/russian_ais.png" width="120px" height="160px" data-toggle="modal"></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="services_grid">
+    <div class="row">
+      <div class="services_grid1">
+        <div >
+
+
+
+            <a title="Evolutionary Computation" href="ecbook.html"><img src="images/ec-book.png" width="120px" height="160px" data-toggle="modal"></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<!-- books published -->
+<!--body text -->
+<div class="container">
+  <div class="about">
+  <p style="text-color:#000;">If you are interested in any of the above mentioned research areas, contact the <a href="http://www.cs.memphis.edu/">Computer Science Department</a> for graduate programs.</p>
+
+
+</div>
+</div>
+<!--body text -->
+
+<!-- Home page -->
+
+
+
+
+  <!-- Footer -->
+<footer class="page-footer font-small mdb-color darken-3 pt-4">
+
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+
+      <!-- Grid row -->
+      <div class="row">
+
+ <!-- Grid column -->
+
+
+
+
+
+          <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Research Sites</h5>
+
+
+
+
+              <div class="marginbox">
+              <ul>
+              <li><a class="logolinks" href="http://www.cs.memphis.edu/~dasgupta/index.php?page=ais">Artificial Immune Systems (AIS)</a></li>
+              <li><a class="logolinks" href="http://cfia.memphis.edu/">Center for Information Assurance (CfIA)</a></li>
+              <li><a href="files/Research-Statement-Dasgupta_2019.pdf">Research Statement (2019)</a></li>
+              </ul>
+              </div>
+
+
+            </div>
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+              <div class="col-md-6 mb-md-0 mb-6">
+                <img class="d-block w-100" style="display: center;"src="images/tag_cloud2.jpg" alt="tag cloud">
+
+              </div>
+              <!-- Grid column -->
+              <hr class="clearfix w-100 d-md-none pb-3">
+
+              <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Dr. Dipankar Dasgupta</h5>
+
+                  <ul class="list-unstyled">
+                    <li  >
+                      <i class="fas fa-address-card"></i> 333 Dunn Hall
+                      Memphis, TN 38152-3240
+
+                    </li>
+                    <li>
+                      <i class="fas fa-phone"></i> (901) 678-4147
+
+                    </li>
+                    <li>
+                      <i class="fas fa-fax"></i> (901) 678-1506
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> ddasgupt@memphis.edu
+                    </li>
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
+
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3"> Copyright 2019:
+      <a href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php"> Dr. Dipankar Dasgupta</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+</body>
+</html>
