@@ -814,7 +814,7 @@ position: relative;
   }
 
 }
-=======
+
 @charset "utf-8";
 body{
   margin: 0;
@@ -1608,6 +1608,16 @@ position: relative;
       margin-right: auto;
 
 }
+
+  .Github{
+    top:5;
+
+
+      font-size: 10px;
+      margin-left:-70%;
+      left:0;
+    margin-right: auto;
+}
       .navbar-toggler{
          margin: 10px 0px 10px 30px;
          background-color: #0D3182;
@@ -1752,4 +1762,3 @@ position: relative;
   }
 
 }
->>>>>>> some init msg
